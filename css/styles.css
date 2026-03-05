@@ -23,23 +23,34 @@ color: #E35335;
 }
 
 #header a#logo1 img { 
-margin-top: 20px;
-margin-left: 20px;
-margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
-#header { padding: 10px 25px;
-display: block;
+#header #toplink { 
 text-decoration: none;
-color: #ccc;}
-#toplink
-#footer
-#content-wrapper
-#main-content
+position: absolute;
+top:-34px;
+right: 10px;
+color: white;
+font-size: 1.8em;
+}
+
+#footer {
+  background-color: #777;
+  height: 80px;
+  clear: both; 
+}
+#content-wrapper 
+#main-content { 
+background-image: url("../images/repeating.png");
+float: left;
+}
 h2 strong
 .image-r
-#side-content
+#side-content 
 #main-nav
-#main-nav ul
+#main-nav ul 
 #main-nav ul li
 #main-nav ul li a
 #main-nav ul li a:hover
