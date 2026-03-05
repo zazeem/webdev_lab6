@@ -22,11 +22,15 @@ font-family: 'Devonshire', cursive;
 color: #E35335;
 }
 
-#header a { 
+#header a#logo1 img { 
+margin-top: 20px;
+margin-left: 20px;
+margin-bottom: 20px;
 }
-
-#logo1 img
-#header 
+#header { padding: 10px 25px;
+display: block;
+text-decoration: none;
+color: #ccc;}
 #toplink
 #footer
 #content-wrapper
